@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;800&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  li {
+    @apply p-4;
+  }
+
+  button {
+    @apply text-white border bg-[#920F0F] border-[#920F0F]
+    hover:bg-transparent hover:text-[#920F0F] rounded-full;
+  }
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.iframe-first-container {
+  text-align: center;
+  background-color: rgba(254, 239, 229, 1) !important;
+  max-width: 540px;
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: #feefe5;
+  border-style: solid;
+}
+
+.iframe-second {
+  font-size: 16px;
+  text-align: left;
+  font-family: "Helvetica", sans-serif;
+  color: #661d1d;
+  background-color: #ffeded;
+  border-radius: 3px;
+  border-color: #ff4949;
+}
+
+.iframe-three {
+  font-size: 12px;
+  text-align: left;
+  font-family: "Helvetica", sans-serif;
+  color: #8390a4;
+  text-align: left;
+}
+
+.iframe-four {
+  font-size: 16px;
+  text-align: left;
+  font-family: "Helvetica", sans-serif;
+  color: #661d1d;
+  background-color: #ffeded;
+  border-radius: 3px;
+  border-color: #ff4949;
+}
+
+.iframe-five {
+  font-size: 12px;
+  text-align: left;
+  font-family: "Helvetica", sans-serif;
+  color: #8390a4;
+  text-align: left;
+}
+
+.iframe-six {
+  font-size: 16px;
+  text-align: left;
+  font-weight: 700;
+  font-family: "Futura", sans-serif;
+  color: #ffffff;
+  background-color: #920f0f;
+  border-radius: 20px;
+  border-width: 0px;
+}
+
+/* Modal */
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.modal, .overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49,49,49,0.8);
+}
+.modal-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #fff;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+}
+
+
+.btn:disabled {
+  background-color: #cccccc;
+  color: #333;
+  cursor: auto;
+}
+
+.btn:disabled:hover {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.message {
+  padding-top: 10px;
+  text-align: center;
+  color: rebeccapurple;
+}
